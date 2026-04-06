@@ -26,11 +26,7 @@
   <body>
     <h1 class="header">ProjectBird</h1>
 
-    <div
-      id="GameDiv"
-      cc_exact_fit_screen="false"
-      style="width: 1280px; height: 960px"
-    >
+    <div id="GameDiv" cc_exact_fit_screen="false">
       <div id="Cocos3dGameContainer">
         <canvas
           id="GameCanvas"
@@ -40,20 +36,16 @@
         ></canvas>
       </div>
     </div>
+
     <p class="footer">
       Created with
-      <a href="https://www.cocos.com/products" title="Cocos Creator"
-        >Cocos Creator</a
-      >
+      <a href="https://www.cocos.com/products" title="Cocos Creator">
+        Cocos Creator
+      </a>
     </p>
-    <!-- Polyfills bundle. -->
 
     <script src="./src/polyfills.bundle.js" charset="utf-8"></script>
-
-    <!-- SystemJS support. -->
     <script src="./src/system.bundle.js" charset="utf-8"></script>
-
-    <!-- Import map -->
     <script
       src="./src/import-map.json"
       type="systemjs-importmap"
